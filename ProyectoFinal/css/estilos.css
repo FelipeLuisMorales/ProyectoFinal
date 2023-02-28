@@ -1,0 +1,163 @@
+.header{
+    background-color: rgb(243, 198, 198);
+}
+
+.head_nombre{
+    margin-top: 0px;
+    margin-left: 70px;
+    padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.head_contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head_ocupacion{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 50px;
+}
+
+.head__enlace {
+    display: inline;
+}
+
+.item{
+    text-decoration: none;
+    color:black;
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.item:hover{
+    color: white;
+}
+
+.primer_elemento{
+    color: white;
+}
+
+.contenedor_inicio{
+    display: flex;
+    justify-content:space-around;
+    justify-content:stretch;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.profile_pic{
+    margin-top: 150px;
+    margin-left: 150px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 black;
+    transition: all .5s;
+}
+
+.profile_pic:hover{
+    transform: scale(1.2);
+}
+
+.resumen_inicio{
+    flex-direction: column;
+    display: flex;
+    padding-left: 200px;
+    margin: 50px;
+}
+
+.subtitulo_inicio{
+    font-size: 3rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.info_inicio{
+    font-size: 2.5rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.titulo_section{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-size: 4rem;
+}
+
+.contenedor_section{
+    box-shadow: 0 4px 8px 0 rgb(243, 198, 198);
+    padding-bottom: 20px;
+}
+
+.item_section{
+    display: flex;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 20px;
+}
+
+.icon_section{
+    width: 80px;
+    height: 80px;
+}
+
+.info_section{
+    font-size: 1.5rem;
+}
+
+.link-section{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer{
+    background-color: rgb(243, 198, 198);
+}
+
+.texto_footer{
+    margin-top: 0px;
+    padding-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    width: 100px;
+    height: 100%;
+}
+
+.contenedor_footer{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.icon_redes{
+    width: 50px;
+    height: 50px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.formulario{
+    display: flex;
+    margin-right: 25%;
+}
+
+.dato{
+    display: flex;
+    width: 200px;
+    height: 30px;
+}
+
+.lab{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.contenedor_contacto{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+

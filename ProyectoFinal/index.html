@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "author" content="Felipe Luis Morales">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    
+
+    <header class="header">
+        <h1 class="head_nombre"> Lorraine Franklin </h1>
+        <div class="head_contenedor">
+            <h2 class="head_ocupacion"> Desarrolladora web, Buenos Aires, AR</h2>
+            <nav class="head_navegacion">               
+                    <a class="item primer_elemento" href="#">Inicio</a>
+                    <a class="item" href="#formacion">Formación</a>
+                    <a class="item" href="#experiencia_laboral">Experiencia Laboral</a>
+                    <a class="item" href="#contacto">Contacto</a>
+            </nav>
+        </div>
+    </header> 
+
+    <main>
+    
+        <section class="inicio">
+            <div class="contenedor_inicio">
+                <img src="img/perfil-mujer-vivo.png" alt="Foto de Perfil" class="profile_pic">
+                <div class="resumen_inicio">
+                    <h2 class="subtitulo_inicio"> Resumen </h2>
+                    <p class="info_inicio"> Desarrolladora Web Front end con <br> más de 5 años de experiencia en el <br> rubro trabajando para empresas <br> internacionales.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion">
+
+            <h2 class="titulo_section">Formación</h2>
+            <div class="contenedor_section">
+                <ul>
+                    <li class="item_section">
+                            <img src="img/icon-UTN.png" alt="Logo de UTN" class="icon_section">
+                            <p class="info_section"> Universidad Tecnológica Nacional -  Ingeniería en Sistemas <small>2008-2015</small></p>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/logo-aaad.png" alt="Logo de Agencia aprendizaje a lo largo de la vida" class="icon_section">
+                        <p class="info_section"> Agencia Aprendizaje a Lo largo de la vida -  Diseño UX/UI <small>2016- 2017</small></p>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/icon-arg-programa.png" alt="Logo de Argentina Programa" class="icon_section">
+                        <p class="info_section"> Ministerio de Economía de la Nación -  Argentina Programa 4.0 <small>2022- Actualidad</small></p>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section id="experiencia_laboral">
+
+            <h2 class="titulo_section">Experiencia Laboral</h2>
+            <div class="contenedor_section">
+                <ul>
+                    <li class="item_section">
+                            <img src="img/accenture-emblem.png" alt="Accenture icono" class="icon_section">
+                            <p class="info_section"> Accenture - Desarrolladora Front End Senior <small>2018 - Actualidad</small></p>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/logo-aaad.png" alt="Logo de Agencia aprendizaje a lo largo de la vida" class="icon_section">
+                        <p class="info_section"> Agencia Aprendizaje a Lo largo de la vida -  Profesora de Diseño UX/UI <small>2018</small></p>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/globant-icon.png" alt="Logo de Globant" class="icon_section">
+                        <p class="info_section">  Globant - Desarrolladora Full Stack <small>2016- 2018</small></p>
+                    </li>
+                </ul>
+            </div>
+            
+        </section>
+
+        <section id="contacto">
+
+            <h2 class="titulo_section">Información de Contacto</h2>
+            <div class="contenedor_contacto">
+                <ul>
+                    <li class="item_section">
+                            <img src="img/whatsApp_icon.png" alt="whatsapp-icon" class="icon_section">
+                            <a class="link-section" href="tel:+800-326-8167">(880) 326-8167</a>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/mail_icon.png" alt="Logo mail" class="icon_section">
+                        <a class="link-section" href="mailto:lorraine.franklin@example.com" class="mail">lorraine.franklin@example.com</a>
+                    </li>
+                    <li class="item_section">
+                        <img src="img/maps_icon.png" alt="Logo maps" class="icon_section">
+                        <p class="info_section">Dirección: 265 Fincher Rd</p>
+                    </li>
+                </ul>
+                <div class="formulario">
+                    <form name="form" action="" onsubmit="return validateForm()" method="post" > 
+                            <label class="lab">Nombre y Apellido*</label>
+                            <input type="text" name="Nombre" class="dato" placeholder="Ingrese su nombre y apellido" />
+                            <label class="lab">E-mail*</label>
+                            <input type="email" name="Email" class="dato" placeholder="Ingrese su emal" />
+                            <label class="lab">Mensaje</label>
+                            <input type="text" name="Apellido" class="dato" placeholder="Ingrese su mensaje" />
+                            <input type="submit" value="Enviar" />
+                            <script src="javascript/funciones.js"></script>
+                    </form>
+                </div>
+            </div> 
+        </section>
+    
+    </main>
+    <footer class="footer">
+        <span class="texto_footer">© 2023 by Felipe Morales.</span>   
+        <div class="contenedor_footer">
+            <img src="img/free-twitter-logo-icon-2429-thumb.png" alt="Logo twitter" class="icon_redes">           
+            <img src="img/pngtree-instagram-icon-png-image_6315974.png" alt="Logo instagram" class="icon_redes">
+            <img src="img/2021_Facebook_icon.svg.png" alt="Logo faceboock" class="icon_redes">
+        </div>
+    </footer>
+
+    
+</body>
+</html>
